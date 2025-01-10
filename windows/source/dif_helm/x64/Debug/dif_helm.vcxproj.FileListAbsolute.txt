@@ -1,0 +1,3 @@
+C:\Users\kostya\Desktop\dif_helm\x64\Debug\dif_helm.vcxproj.CopyComplete
+C:\Users\kostya\Desktop\dif_helm\x64\Debug\dif_helm.dll
+C:\Users\kostya\Desktop\dif_helm\x64\Debug\libcrypto-3-x64.dll

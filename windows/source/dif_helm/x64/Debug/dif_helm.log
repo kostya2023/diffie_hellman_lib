@@ -1,0 +1,20 @@
+﻿  pch.cpp
+  dllmain.cpp
+  utils.cpp
+C:\Users\kostya\Desktop\dif_helm\utils.cpp(10,61): warning C4273: generate_p_g_a: несовместимое связывание dll
+C:\Users\kostya\Desktop\dif_helm\utils.h(13,18): message : см. предыдущее определение "generate_p_g_a"
+C:\Users\kostya\Desktop\dif_helm\utils.cpp(36,57): warning C4273: generate_b: несовместимое связывание dll
+C:\Users\kostya\Desktop\dif_helm\utils.h(14,18): message : см. предыдущее определение "generate_b"
+C:\Users\kostya\Desktop\dif_helm\utils.cpp(55,72): warning C4273: generate_A: несовместимое связывание dll
+C:\Users\kostya\Desktop\dif_helm\utils.h(15,18): message : см. предыдущее определение "generate_A"
+C:\Users\kostya\Desktop\dif_helm\utils.cpp(80,105): warning C4273: generate_shared_key: несовместимое связывание dll
+C:\Users\kostya\Desktop\dif_helm\utils.h(16,18): message : см. предыдущее определение "generate_shared_key"
+C:\Users\kostya\Desktop\dif_helm\utils.cpp(105,59): warning C4273: hash_shared_key: несовместимое связывание dll
+C:\Users\kostya\Desktop\dif_helm\utils.h(17,18): message : см. предыдущее определение "hash_shared_key"
+C:\Users\kostya\Desktop\dif_helm\utils.cpp(119,29): warning C4273: free_memory: несовместимое связывание dll
+C:\Users\kostya\Desktop\dif_helm\utils.h(18,18): message : см. предыдущее определение "free_memory"
+  Создание кода...
+     Создается библиотека C:\Users\kostya\Desktop\dif_helm\x64\Debug\dif_helm.lib и объект C:\Users\kostya\Desktop\dif_helm\x64\Debug\dif_helm.exp
+  dif_helm.vcxproj -> C:\Users\kostya\Desktop\dif_helm\x64\Debug\dif_helm.dll
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
