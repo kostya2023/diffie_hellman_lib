@@ -7,4 +7,6 @@ diffiehellmanlib.egg-info/PKG-INFO
 diffiehellmanlib.egg-info/SOURCES.txt
 diffiehellmanlib.egg-info/dependency_links.txt
 diffiehellmanlib.egg-info/top_level.txt
+diffiehellmanlib/exchange/__init__.py
+diffiehellmanlib/exchange/exchange.py
 diffiehellmanlib/libs/__init__.py

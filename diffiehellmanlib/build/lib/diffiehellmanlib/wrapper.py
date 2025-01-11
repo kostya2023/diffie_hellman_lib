@@ -103,7 +103,7 @@ def generate_A_or_B(p, g, a):
 
 def hash_shared_key(shared_key):
     hashed_key = ctypes.c_char_p()
-    dif_helm.hash_shared_key(shared_key.encode(), ctypes.byref(hashed_key))
+    dif_helm.hash_shared_key(shared_key, ctypes.byref(hashed_key))
     hashed_key_value = hashed_key.value
     free_memory(hashed_key)
     return str(hashed_key_value.decode())

@@ -33,7 +33,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='diffiehellmanlib',
-    version='1.5.15',
+    version='1.6a1',
     description='Simplified number generation library for the Diffie-Hellman protocol.',
     long_description=long_description,
     long_description_content_type="text/markdown",
