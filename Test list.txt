@@ -32,3 +32,11 @@ Bugs list:
         - строка 106 с dif_helm.hash_shared_key(shared_key.encode(), ctypes.byref(hashed_key)) на dif_helm.hash_shared_key(shared_key, ctypes.byref(hashed_key))
 Остальные проверку прошли.
 Конец записи тестирования.
+
+Тестирование 12.01.2025: 12:07
+Версия 1.6a1
+Тестирование производится на Windows 11 x64 и python 3.13.1 x64
+Тестирование скорости генерации секретного ключа (K) с размером p от 512 до 1024 бит. 
+Баги:
+    - Не обнаружено.
+Логи теста - test_logs/steedtest.log
