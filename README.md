@@ -52,7 +52,7 @@ print(f"Shared key: {shared_key}")
 
 ## **Обмен ключами через сокеты**
 
-*Функциональность доступна с версии 1.6a1.*
+*Функциональность доступна с версии 2.0*
 
 Библиотека предоставляет функции `exchange_server` и `exchange_client` для безопасного обмена ключами через сеть.
 
@@ -111,7 +111,7 @@ print(f"Shared key: {shared_key}")
 
 ---
 
-## Примеры полного использования
+## Примеры полного использования (Ручной режим)
 
 ### Alice (Серверная часть)
 ```python
@@ -138,7 +138,26 @@ B = wrapper.generate_A_or_B(p, g, b)
 shared_key = wrapper.generate_shared_key(A, p, g, b)
 print(f"Shared key: {shared_key}")
 ```
+---
+## Пример полного использования (Автоматический режим)
 
+### Alice (Серверная часть)
+```python
+from diffiehellmanlib.exchange import exchange
+
+shared_key = exchange.exchange_server(IP_alice, port, IP_bob)
+
+print(f"Shared key: {shared_key}")
+```
+
+### Bob (Клиентская часть)
+```python
+from diffiehellmanlib.exchange import exchange
+
+shared_key = exchange.exchange_client(IP_alice, port)
+
+print(f"Shared key: {shared_key}")
+```
 ---
 
 ## Лицензия

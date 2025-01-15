@@ -1,0 +1,7 @@
+[23:05:58] Запуск теста: invalid_input_test
+[23:05:58] Старт теста на неверные входные данные
+[23:06:16] Тест на неверный p (-1) пройден: Both p and g must be positive integers. Received: p=-1, g=2
+[23:06:16] Тест на неверный g (str) пройден: invalid literal for int() with base 10: 'str'
+[23:06:16] Тест на неверные bits (abc) пройден: invalid literal for int() with base 10: 'abc'
+[23:06:16] Тест на неверные входные данные завершен
+[23:06:16] Тест на неверные входные данные завершён.

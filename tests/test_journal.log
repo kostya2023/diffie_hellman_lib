@@ -1,0 +1,79 @@
+
+Журнал тестов старт 15.01.2025 22:26
+
+Тестирование 15.01.2025 22:30
+Версия 1.6a1
+Тестирование производится на Windows 11 AMD64 и python 3.13.1 64bit
+Тестирование функций invalid_input_test из diffiehellmanlib
+Bugs list:
+	- Bug 1:
+		- Traceback (most recent call last):
+			Не сработал контроль на неверный тип p
+Логи теста - test_logs\invalid_input_test_15.01.2025.log
+Тестирование функций hash_shared_key_test из diffiehellmanlib
+Bugs list:
+	- Не обнаружено.
+Логи теста - test_logs\hash_shared_key_test_15.01.2025.log
+Тестирование функций exchange_test из diffiehellmanlib
+Bugs list:
+	- Не обнаружено.
+Логи теста - test_logs\exchange_test_15.01.2025.log
+Тестирование функций speed_test из diffiehellmanlib
+Bugs list:
+	- Не обнаружено.
+Логи теста - test_logs\speed_test_15.01.2025.log
+Тестирование функций primality_test из diffiehellmanlib
+Bugs list:
+	- Не обнаружено.
+Логи теста - test_logs\primality_test_15.01.2025.log
+Тестирование функций stress_test из diffiehellmanlib
+Bugs list:
+	- Не обнаружено.
+Логи теста - test_logs\stress_test_15.01.2025.log
+Тестирование функций memory_leak_test из diffiehellmanlib
+Bugs list:
+	- Не обнаружено.
+Логи теста - test_logs\memory_leak_test_15.01.2025.log
+
+Результат сессии теста.
+Что нужно поменять:
+   -  1 invalid_input_test 
+Конец записи тестирования.
+
+Журнал тестов старт 15.01.2025 23:05
+
+Тестирование 15.01.2025 23:09
+Версия 1.6a1
+Тестирование производится на Windows 11 AMD64 и python 3.13.1 64bit
+Тестирование функций invalid_input_test из diffiehellmanlib
+Bugs list:
+	- Не обнаружено.
+Логи теста - test_logs\invalid_input_test_15.01.2025.log
+Тестирование функций hash_shared_key_test из diffiehellmanlib
+Bugs list:
+	- Не обнаружено.
+Логи теста - test_logs\hash_shared_key_test_15.01.2025.log
+Тестирование функций exchange_test из diffiehellmanlib
+Bugs list:
+	- Не обнаружено.
+Логи теста - test_logs\exchange_test_15.01.2025.log
+Тестирование функций speed_test из diffiehellmanlib
+Bugs list:
+	- Не обнаружено.
+Логи теста - test_logs\speed_test_15.01.2025.log
+Тестирование функций primality_test из diffiehellmanlib
+Bugs list:
+	- Не обнаружено.
+Логи теста - test_logs\primality_test_15.01.2025.log
+Тестирование функций stress_test из diffiehellmanlib
+Bugs list:
+	- Не обнаружено.
+Логи теста - test_logs\stress_test_15.01.2025.log
+Тестирование функций memory_leak_test из diffiehellmanlib
+Bugs list:
+	- Не обнаружено.
+Логи теста - test_logs\memory_leak_test_15.01.2025.log
+
+Результат сессии теста.
+Баги не обнаружены.
+Конец записи тестирования.
